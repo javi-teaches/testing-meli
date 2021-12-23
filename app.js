@@ -3,8 +3,8 @@ const path = require ("path");
 
 const app = express ();
 
-const pueblicPath = path.resolve (__dirname, "./public");
-app.use (express.static (pueblicPath));
+const publicPath = path.resolve (__dirname, "/public");
+app.use (express.static (publicPath));
 
 
 
