@@ -16,9 +16,6 @@ app.get ("/", (req, res) => {
     res.sendFile (path.resolve (__dirname, "./views/home.html")); 
 } )
 
-app.post ("/procesar", (req, res) => {
-    res.send ("enviaste información");
-})
 
 app.get ("/register", (req, res) => {
     res.sendfile (path.resolve (__dirname, "./views/register.html")); 
